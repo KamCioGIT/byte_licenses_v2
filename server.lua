@@ -2,6 +2,7 @@ if not lib then return end
 
 local Utils = require 'modules.utils.shared'
 require 'modules.givelic.server'
+require 'modules.license_check.server'
 ESX = exports['es_extended']:getSharedObject()
 
 if Shared.debug == 1 then
