@@ -4,6 +4,11 @@
 ### Description
 byte_licenses provides your server the possibility to give out licenses as items to players. You can add jobs, that can use the command and can set the items that they can use.
 
+### V2.1 - Changelog
+- Added the possibility to check if a player has a license.
+`local hasWeaponLicense = lib.callback.await('licenses:hasLicense', 'weapon', true)`
+`local hasLicense = lib.callback.await('licenses:hasLicense', licenseType, isOwnLicense)`
+
 ### V2 - Changelog
 - You can now setup the required grades for every license.
 - We optimized the permission-check process
