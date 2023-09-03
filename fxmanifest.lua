@@ -7,7 +7,7 @@ lua54 'yes'
 --[[ Resource ]]--
 name 'byte_licenses'
 author 'ByteScripts | https://bytescripts.tebex.io/ | discord.gg/6XwewsSk9W'
-version '2.0'
+version '2.1'
 description 'FiveM License-Script'
 
 --[[ Manifest ]]--
